@@ -8,7 +8,7 @@
 h1{
   opacity:20%;
   color:rgb(96, 0, 125);
-  font-size: 60px;
+  font-size: 25px;
   transition: all 0.5s ease;
 }
 h1:hover{
