@@ -37,5 +37,6 @@ h1:hover{
 
 }
 .newpage:hover{
+  display:inline;
   width:11%;
 }
