@@ -16,10 +16,11 @@ h1:hover{
   display: inline-block;
   background: rgb(255, 255, 255);
   position: fixed;
-  top: 250px;
-  left: 400px;
-  border: 1px dashed rgb(208, 204, 255));
-  padding: 30px;
+  bottom: 200px;
+  right: 200px;
+  width: 300px;
+  border: 1px dashed rgb(194, 193, 255);
+  padding: 40px;
   /* transform: translate(-50%,-50%); */
   /* z-index: -1; */
 }
