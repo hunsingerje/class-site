@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  background-image: image(background.png);
 }
 h1{
   opacity:20%;
