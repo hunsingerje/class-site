@@ -37,7 +37,7 @@ h1:hover{
 }
 .container:hover{
   border: 3px dotted rgb(36, 0, 180);
-  opacity:100%;
+  opacity:10%;
 }
 .newpage{
   transform: scale(2);
