@@ -3,7 +3,7 @@
 }
 .background{
   z-index: -1;
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 h1{
   opacity:20%;
@@ -33,7 +33,7 @@ h1:hover{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 5%;
+  width: 9%;
 }
 
 }
