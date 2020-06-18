@@ -1,11 +1,9 @@
 *{
   box-sizing: border-box;
+  cursor: url(foo6.gif), pointer;
 }
 head{
   display: block;
-}
-body{
-  cursor: url(foo6.gif), pointer;
 }
 .background{
   z-index: -1;
@@ -45,6 +43,7 @@ h1:hover{
   opacity:100%;
 }
 .newpage{
+  cursor: url(foo6.gif), pointer;
   transform: scale(2.5);
   display: block;
   margin-left: auto;
