@@ -29,7 +29,7 @@ h1:hover{
 }
 .newpage{
   transform: scale(2);
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   width: 9%;
@@ -37,6 +37,5 @@ h1:hover{
 
 }
 .newpage:hover{
-  display:inline;
   width:11%;
 }
