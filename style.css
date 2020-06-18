@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 h1{
-  opacity:20%;
+  opacity:40%;
   color:rgb(96, 0, 125);
   transition: all 0.5s ease;
 }
@@ -15,7 +15,7 @@ h1:hover{
 {
   display: inline-block;
   background: rgb(255, 255, 255);
-  position: absolute;
+  position: fixed;
   top: 250px;
   left: 400px;
   border: 1px dashed rgb(215, 215, 215);
