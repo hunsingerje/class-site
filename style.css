@@ -4,7 +4,6 @@
 }
 head{
   display: block;
-  font-family: 'Special Elite', cursive;
 }
 .background{
   z-index: -1;
@@ -16,6 +15,7 @@ h1{
   font-size: 20px;
   transition: all 0.5s ease;
   text-align: center;
+  font-family: 'Special Elite', cursive;
 }
 h1:hover{
   opacity:100%;
