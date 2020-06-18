@@ -5,6 +5,9 @@
 head{
   display: block;
 }
+body{
+  cursor: url(foo6.gif), auto;
+}
 .background{
   z-index: -1;
   transform: scale(1.5);
