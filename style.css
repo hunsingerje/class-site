@@ -24,5 +24,8 @@ h1:hover{
   /* z-index: -1; */
 }
 .newpage{
+  transform: scale(1);
+}
+.newpage:hover{
   transform: scale(2);
 }
