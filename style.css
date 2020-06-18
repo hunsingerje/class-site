@@ -1,6 +1,9 @@
 *{
   box-sizing: border-box;
 }
+head{
+  display:block;
+}
 .background{
   z-index: -1;
   transform: scale(1.2);
