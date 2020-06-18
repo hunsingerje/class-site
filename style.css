@@ -17,9 +17,10 @@ h1:hover{
   background: rgb(255, 255, 255);
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
+  top: 200px;
+  right: 200px;
   border: 1.5px dashed rgb(194, 193, 255);
-  padding: 40px;
+  padding: 30px;
   /* transform: translate(-50%,-50%); */
   /* z-index: -1; */
 }
