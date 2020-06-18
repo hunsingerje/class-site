@@ -23,14 +23,14 @@ h1:hover{
   bottom: 200px;
   right: 100px;
   width: 300px;
-  border: 1.5px solid rgb(194, 193, 255);
-  border-radius: 60%;
+  border: 2px solid rgb(194, 193, 255);
   padding: 30px;
   /* transform: translate(-50%,-50%); */
   /* z-index: -1; */
 }
 .newpage{
   transform: scale(2);
+  display:inline;
 }
 .newpage:hover{
   transform: scale(3);
