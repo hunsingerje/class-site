@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 head{
-  display:block;
+  display: block;
 }
 .background{
   z-index: -1;
@@ -31,6 +31,10 @@ h1:hover{
   padding: 10px;
   /* transform: translate(-50%,-50%); */
   /* z-index: -1; */
+}
+.container:hover{
+  color: rgb(36, 0, 180);
+  opacity:100%;
 }
 .newpage{
   transform: scale(2);
