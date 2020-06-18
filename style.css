@@ -23,7 +23,7 @@ h1:hover{
   bottom: 200px;
   right: 100px;
   width: 300px;
-  border: 2px solid rgb(194, 193, 255);
+  border: 4px solid rgb(194, 193, 255);
   padding: 30px;
   /* transform: translate(-50%,-50%); */
   /* z-index: -1; */
@@ -34,4 +34,16 @@ h1:hover{
 }
 .newpage:hover{
   transform: scale(3);
+}
+.one{
+  top:60%;
+  left:80%;
+  bottom:auto;
+  right: auto;
+}
+.two{
+  top:50%;
+  left:30%;
+  bottom:auto;
+  right: auto;
 }
