@@ -43,7 +43,7 @@ h1:hover{
   opacity:100%;
 }
 .newpage{
-  cursor: url(foo6.gif), pointer;
+  cursor: url(foo6.gif),auto;
   transform: scale(2.5);
   display: block;
   margin-left: auto;
