@@ -38,8 +38,13 @@ h1:hover{
 .one{
   top:100px;
   left:200px;
+  bottom:auto;
+  right:auto;
+
 }
 .two{
   bottom:100px;
   left:300px;
+  top:auto;
+  right:auto;
 }
