@@ -33,7 +33,7 @@ h1:hover{
   /* z-index: -1; */
 }
 .container:hover{
-  color: rgb(36, 0, 180);
+  border: 3px dotted rgb(36, 0, 180);
   opacity:100%;
 }
 .newpage{
