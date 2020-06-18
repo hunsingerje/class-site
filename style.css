@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  cursor: url(foo6.gif) 0 0, auto;
+  cursor: url(foo6.gif) 0 0, grab;
 }
 head{
   display: block;
@@ -43,6 +43,7 @@ h1:hover{
   opacity:100%;
 }
 .newpage{
+  position: fixed;
   transform: scale(2.5);
   display: block;
   margin-left: auto;
