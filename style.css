@@ -18,7 +18,7 @@ h1:hover{
   position: absolute;
   top: 250px;
   left: 400px;
-  border: 1px solid rgb(215, 215, 215);
+  border: 1px dashed rgb(215, 215, 215);
   padding: 30px;
   /* transform: translate(-50%,-50%); */
   /* z-index: -1; */
