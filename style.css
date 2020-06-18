@@ -4,6 +4,7 @@
 }
 head{
   display: block;
+  font-family: 'Special Elite', cursive;
 }
 .background{
   z-index: -1;
