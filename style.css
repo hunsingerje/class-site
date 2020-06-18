@@ -16,8 +16,9 @@ h1:hover{
   position: absolute;
   top: 250px;
   left: 400px;
-  border: 1px solid rgb(0, 0, 0) opacity:10%;
+  border: 1px solid rgb(0, 0, 0);
   padding: 20px;
+  opacity:10%;
   /* transform: translate(-50%,-50%); */
   /* z-index: -1; */
 }
