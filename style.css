@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  cursor: url(foo6.gif), default;
+  cursor: url(foo6.gif), pointer;
 }
 head{
   display: block;
