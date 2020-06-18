@@ -15,11 +15,10 @@ h1:hover{
 {
   display: inline-block;
   background: rgb(255, 255, 255);
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  bottom:100px;
-  right:100px;
+  position: fixed;
+  bottom: 200px;
+  right: 100px;
+  width: 300px;
   border: 1.5px dashed rgb(194, 193, 255);
   padding: 30px;
   /* transform: translate(-50%,-50%); */
