@@ -36,14 +36,10 @@ h1:hover{
   transform: scale(3);
 }
 .one{
-  top:60%;
-  left:80%;
-  bottom:auto;
-  right: auto;
+  top:100px;
+  left:200px;
 }
 .two{
-  top:50%;
-  left:30%;
-  bottom:auto;
-  right: auto;
+  bottom:100px;
+  left:300px;
 }
