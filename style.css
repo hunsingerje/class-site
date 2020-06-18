@@ -8,6 +8,7 @@
 h1{
   opacity:20%;
   color:rgb(96, 0, 125);
+  font-size: 10px;
   transition: all 0.5s ease;
 }
 h1:hover{
@@ -21,14 +22,14 @@ h1:hover{
   position: fixed;
   bottom: 100px;
   right: 400px;
-  width: 200px;
+  width: 100px;
   border: 3px dotted rgb(96, 0, 125, 0.2);
   padding: 10px;
   /* transform: translate(-50%,-50%); */
   /* z-index: -1; */
 }
 .newpage{
-  transform: scale(3);
+  transform: scale(2);
   display: block;
   margin-left: auto;
   margin-right: auto;
