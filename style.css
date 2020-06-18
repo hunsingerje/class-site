@@ -31,6 +31,7 @@ h1:hover{
 .newpage{
   transform: scale(2);
   display:inline;
+  padding:60px;
 }
 .newpage:hover{
   transform: scale(3);
