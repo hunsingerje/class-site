@@ -30,21 +30,13 @@ h1:hover{
 }
 .newpage{
   transform: scale(2);
-  display:inline;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
 }
 .newpage:hover{
   transform: scale(3);
-}
-.one{
-  top:100px;
-  left:200px;
-  bottom:auto;
-  right:auto;
-
-}
-.two{
-  bottom:100px;
-  left:300px;
-  top:auto;
-  right:auto;
 }
