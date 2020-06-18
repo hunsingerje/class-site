@@ -5,7 +5,7 @@ head{
   display: block;
 }
 body{
-  cursor: url(foo6.gif), auto;
+  cursor: url(foo6.gif), pointer;
 }
 .background{
   z-index: -1;
