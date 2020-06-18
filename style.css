@@ -36,8 +36,8 @@ h1:hover{
   /* z-index: -1; */
 }
 .container:hover{
-  border: 3px dotted rgb(36, 0, 180);
-  opacity:10%;
+  border: 3px dotted rgb(36, 0, 180, 0.1);
+  opacity:100%;
 }
 .newpage{
   transform: scale(2);
