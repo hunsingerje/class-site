@@ -25,7 +25,7 @@ h1:hover{
 .container{
   display: inline-block;
   position: fixed;
-  bottom: 100px;
+  bottom: 80px;
   right: 200px;
   width: 180px;
   border: 3px dotted rgb(96, 0, 125, 0.2);
@@ -48,7 +48,7 @@ h1:hover{
   /* right: 60px; */
   /* width: 20px; */
   /* height: 20px; */
-  transform: scale(2);
+  transform: scale(2.2);
   display: block;
   margin-left: auto;
   margin-right: auto;
