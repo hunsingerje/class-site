@@ -12,7 +12,7 @@ head{
 h1{
   opacity:40%;
   color:rgb(96, 0, 125);
-  font-size: 16px;
+  font-size: 18px;
   transition: all 0.5s ease;
   text-align: center;
   font-family: 'Space Mono', monospace;
@@ -21,6 +21,27 @@ h1:hover{
   opacity:100%;
   color: rgb(36, 0, 180);
 }
+h2{
+  opacity:40%;
+  color:rgb(96, 0, 125);
+  font-size: 15px;
+  text-align: left;
+  font-family: 'Space Mono', monospace;
+}
+h2:hover{
+  opacity:100%;
+  color: rgb(36, 0, 180);
+}
+p{
+  opacity:40%;
+  color:rgb(96, 0, 125);
+  font-size: 15px;
+  text-align: left;
+  font-family: 'Space Mono', monospace;
+}
+p:hover{
+  opacity:100%;
+  color: rgb(36, 0, 180);}
 
 .container{
   display: inline-block;
