@@ -5,6 +5,14 @@
 head{
   display: block;
 }
+div{
+  position: absolute;/*it can be fixed too*/
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin: auto;
+}
 .background{
   z-index: -1;
   transform: scale(1.5);
@@ -24,14 +32,15 @@ h1:hover{
 
 .container{
   display: inline-block;
-  position: fixed;
-  bottom: 80px;
-  right: 300px;
+  /* position: fixed; */
+  /* top:100px; */
+  /* right: 500px; */
   width: 180px;
+  height:540px;
   border: 3px dotted rgb(96, 0, 125, 0.2);
   padding: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin: auto; */
+  /* width: 50%; */
   transition: all 0.5s ease;
   opacity:85%;
   background: rgb(248, 246, 255, 0.10);
