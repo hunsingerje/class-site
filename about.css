@@ -12,10 +12,11 @@ head{
 h1{
   opacity:40%;
   color:rgb(96, 0, 125);
-  font-size: 18px;
+  font-size: 16px;
   transition: all 0.5s ease;
   text-align: center;
   font-family: 'Space Mono', monospace;
+  font-weight: bold;
 }
 h1:hover{
   opacity:100%;
@@ -25,8 +26,9 @@ h2{
   opacity:40%;
   color:rgb(96, 0, 125);
   font-size: 15px;
-  text-align: left;
+  text-align: center;
   font-family: 'Space Mono', monospace;
+  font-weight: lighter;
 }
 h2:hover{
   opacity:100%;
@@ -36,9 +38,9 @@ p{
   opacity:40%;
   color:rgb(96, 0, 125);
   font-size: 15px;
-  text-align: left;
+  text-align: center;
   font-family: 'Space Mono', monospace;
-  text-decoration: none;
+  text-decoration:none;
 }
 p:hover{
   opacity:100%;
