@@ -110,8 +110,8 @@ p:hover{
   transform: scale(0.29);
   display: inline-block;
   position: fixed;
-  bottom: -60px;
-  right: -170px;
+  /* bottom: -60px; */
+  /* right: -170px; */
   opacity:75%;
 
 }
