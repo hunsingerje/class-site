@@ -107,11 +107,11 @@ p:hover{
   opacity:100%;
 }
 .aboutimage{
-  transform: scale(0.14);
+  transform: scale(0.28);
   display: inline-block;
   position: fixed;
-  bottom: -440px;
-  right: -771px;
+  bottom: -63px;
+  right: -172px;
   opacity:75%;
 
 }
