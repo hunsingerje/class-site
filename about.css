@@ -108,7 +108,7 @@ p:hover{
 }
 .aboutimage{
   transform: scale(0.28);
-  display: inline-block;
+  display: block;
   position: fixed;
   bottom: -63px;
   right: -172px;
