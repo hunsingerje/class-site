@@ -17,12 +17,22 @@
     gtag('js', new Date());
     gtag('config', 'UA-170199195-1');
   </script>
-
+  <!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+  <style>
+  #draggable { width: 180px; height: 560px; padding: 0.5em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
 </head>
 
 <body>
   <img class="background" src="background2.jpg">
-  <div class="container" draggable="true">
+  <div class="container ui-widget-content" id="draggable">
     <h1>welcome, i'm glad you're here.</h1>
     <br></br>
     <a href="about.html"><img class="newpage" src="bubble.ico" href="#" data-toggle="tooltip" title="about me"></a>
@@ -41,7 +51,6 @@
     <br></br>
     <a href="underconstruction.html"><img class="newpage" src="envelope.ico" href="#" data-toggle="tooltip" title="contact me"></a>
     <br></br>
-
 
   </div>
 
