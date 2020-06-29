@@ -1,0 +1,84 @@
+@keyframes Orbit {
+  0% {
+    left: 35em;
+    z-index:2;
+  }
+  50%{
+    left:-18em;
+    z-index:0;
+  }
+  100% {
+    left: 35em;
+    z-index:0;
+  }
+}
+
+html {
+  --speed: calc(1 / 2);
+  --scale: calc(1 / 4000000);
+  background: rgb(217, 196, 255);
+  /* background: black; */
+}
+
+body {
+  margin-top: 6rem;
+  margin-left: calc(60rem * 1882700 * var(--scale));
+  position: relative;
+}
+
+div {
+  display: inline;
+  position: relative;
+}
+
+div>span {
+  font-size: 1rem;
+}
+
+.planet {
+  position: absolute;
+  transform: scale(0.90);
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin: auto;
+  z-index:1;
+}
+
+.moon {
+  transform: scale(0.45);
+  position: absolute;
+  top:6rem;
+  animation: Orbit linear infinite;
+  animation-timing-function: cubic-bezier( 0.445,  0.050,  0.550,  0.950 );
+}
+
+#io {
+  animation-duration: calc(15.0s * 1.769 * var(--speed));
+  /* font-size: calc(1rem * 421700 * var(--scale)); */
+}
+
+#europa {
+  animation-duration: calc(20.0s * 3.551 * var(--speed));
+  /* font-size: calc(1rem * 670900 * var(--scale)); */
+}
+
+#ganymede {
+  animation-duration: calc(5.0s * 7.1545 * var(--speed));
+  /* font-size: calc(1rem * 1070400 * var(--scale)); */
+}
+
+#callisto {
+  animation-duration: calc(6.0s * 16.689 * var(--speed));
+  /* font-size: calc(1rem * 1882700 * var(--scale)); */
+}
+
+hr {
+  margin-top: 2rem;
+}
+
+/*
+Source for sinusoidal timing function:
+https://gist.github.com/terkel/4377409
+*/
