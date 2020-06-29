@@ -1,12 +1,15 @@
 @keyframes Orbit {
   0% {
     left: 35em;
-    z-index: 2;
+    z-index: 3;
   }
 
   50% {
-    left: -18em;
-    z-index: 0;
+    left: -15em;
+    z-index: 2;
+  }
+  75%{
+    z-index: 1;
   }
 
   100% {
@@ -96,7 +99,7 @@ div>span {
   top: 0;
   bottom: 0;
   margin: auto;
-  z-index: 1;
+  z-index: 2;
 }
 
 .moon {
