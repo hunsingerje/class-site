@@ -8,7 +8,8 @@
     left: -15em;
     z-index: 2;
   }
-  75%{
+
+  75% {
     z-index: 1;
   }
 
@@ -31,46 +32,46 @@ body {
 
 @keyframes colorchange {
   0% {
-    background: rgb(176, 164, 213,0.55);
+    background: rgb(176, 164, 213, 0.55);
     /* color: cyan; */
   }
 
   33% {
-    background: rgb(204, 158, 217,0.55);
+    background: rgb(204, 158, 217, 0.55);
     /* color: magenta; */
   }
 
   66% {
-    background: rgb(161, 181, 210,0.55);
+    background: rgb(161, 181, 210, 0.55);
     /* color: yellow; */
   }
 
   100% {
-    background: rgb(188, 167, 214,0.55);
+    background: rgb(188, 167, 214, 0.55);
     /* color: cyan; */
   }
 }
 
-@-webkit-keyframes colorchange{
+@-webkit-keyframes colorchange {
 
-/* Safari and Chrome - necessary duplicate */
+  /* Safari and Chrome - necessary duplicate */
   0% {
-    background: rgb(176, 164, 213,0.55);
+    background: rgb(176, 164, 213, 0.55);
     /* color: cyan; */
   }
 
   33% {
-    background: rgb(204, 158, 217,0.55);
+    background: rgb(204, 158, 217, 0.55);
     /* color: magenta; */
   }
 
   66% {
-    background: rgb(161, 181, 210,0.55);
+    background: rgb(161, 181, 210, 0.55);
     /* color: yellow; */
   }
 
   100% {
-    background: rgb(188, 167, 214,0.55);
+    background: rgb(188, 167, 214, 0.55);
     /* color: cyan; */
   }
 }
